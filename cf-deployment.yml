@@ -1709,6 +1709,10 @@ releases:
   url: https://bosh.io/d/github.com/cloudfoundry/uaa-release?v=58.1
   version: "58.1"
   sha1: 8153dc927d6af2a839f7c6f128c9e8aea315dad6
+- name: loggregator-agent
+  url: https://bosh.io/d/github.com/cloudfoundry/loggregator-agent-release?v=1.0
+  version: "1.0"
+  sha1: aa70e3bc95e25fe86ab00f3b698216a24a44c9d5
 stemcells:
 - alias: default
   os: ubuntu-trusty
