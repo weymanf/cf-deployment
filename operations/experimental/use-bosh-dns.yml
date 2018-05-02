@@ -16,7 +16,7 @@
           auctioneer.service.cf.internal:
           - '*.scheduler.default.cf.bosh'
           bbs.service.cf.internal:
-          - '*.diego-api.default.cf.bosh'
+          - 'not-a-real-url.cf.bosh'
           bits-service.service.cf.internal:
           - '*.api.default.cf.bosh'
           blobstore.service.cf.internal:
