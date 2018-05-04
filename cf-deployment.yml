@@ -1669,6 +1669,10 @@ releases:
   url: https://bosh.io/d/github.com/cloudfoundry/loggregator-release?v=102.1
   version: "102.1"
   sha1: 61949aff688e368a11d03daa18855800517666d3
+- name: loggregator-agent
+  url: https://bosh.io/d/github.com/cloudfoundry/loggregator-agent-release?v=1.0
+  version: "1.0"
+  sha1: aa70e3bc95e25fe86ab00f3b698216a24a44c9d5
 - name: nats
   url: https://bosh.io/d/github.com/cloudfoundry/nats-release?v=23
   version: "23"
@@ -1705,10 +1709,6 @@ releases:
   url: https://bosh.io/d/github.com/cloudfoundry/uaa-release?v=57.1
   version: "57.1"
   sha1: b96e5965e890d9cdd6ad96890cdaad719c368c31
-- name: loggregator-agent
-  url: https://bosh.io/d/github.com/cloudfoundry/loggregator-agent-release?v=1.0
-  version: "1.0"
-  sha1: aa70e3bc95e25fe86ab00f3b698216a24a44c9d5
 stemcells:
 - alias: default
   os: ubuntu-trusty
